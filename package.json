@@ -1,0 +1,17 @@
+{
+  "name": "task_prrojekt",
+  "version": "1.0.0",
+  "description": "Unser Team braucht ein einfacheres, effektiveres Werkzeug, um unsere täglichen Aufgaben zu verfolgen. Daher haben wir uns entschieden, unser eigenes, an unsere Bedürfnisse angepasstes Task-Tracking-System zu erstellen. Das System soll uns bei der Organisation unserer Aufgaben helfen und unseren Workflow verbessern.",
+  "main": "track.js",
+  "scripts": {
+    "start": "node track.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "4.0",
+    "mongoose": "^7.3.1"
+  }
+}
