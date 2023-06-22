@@ -5,7 +5,7 @@ const task = express();
 //Verbindung mit dem "taskModule"
 const Task = require("./taskModule");
 
-mongoose.connect('mongodb+srv://christinapsiloudi:sqd1NCAx4GBqIoZJ@cluster0.ymou45g.mongodb.net/Task?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://chrissi:pass@cluster0.ymou45g.mongodb.net/Task?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
 .then(() => {
   console.log('MongoDB connected...');
 })
